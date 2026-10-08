@@ -7,4 +7,4 @@ for codigo in range(97, 123):
     if letra != "e" and letra != "q":
         resultado += letra
 
-print("{}".format(resultado))
+print("{}".format(resultado), end=""))
