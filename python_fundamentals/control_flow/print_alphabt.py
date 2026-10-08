@@ -4,7 +4,7 @@ resultado = ""
 
 for codigo in range(97, 123):
     letra = chr(codigo)
-    if letra != "q" and letra != "e":
+    if letra != "e" and letra != "q":
         resultado += letra
 
 print("{}".format(resultado))
