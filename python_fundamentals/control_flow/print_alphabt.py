@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
-
-alphabet = "abcdefghijklmnopqrstuvwxyz"
-result = ""
-
-for letter in alphabet:
-    if letter != "e" and letter != "q":
-        result += letter
-
-print(result)
+resultado = ""
+for codigo in range(97, 123):
+    letra = chr(codigo)
+    if letra != "q" and letra != "e":
+        resultado += letra
+print(resultado)
